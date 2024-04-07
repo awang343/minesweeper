@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GUIFrame
+comment1.params=difficultyList
+comment1.target=GUIFrame(java.util.ArrayList)
+comment2.params=
+comment2.target=GUIFrame.GamePanel\ getPanel()
+numComments=3
