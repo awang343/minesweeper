@@ -5,7 +5,7 @@ import java.util.*;
  
 public class GUIFrame extends JFrame
 {
-  private ArrayList<difficulty> difficultyList;
+  private ArrayList<Difficulty> difficultyList;
   private JTextField statusBar;
   
   private GamePanel panel;
@@ -23,7 +23,7 @@ public class GUIFrame extends JFrame
   Color blue = new Color(116, 230, 242);
   Color yellow = new Color(243, 245, 113);
 
-  public GUIFrame(ArrayList<difficulty> difficultyList)
+  public GUIFrame(ArrayList<Difficulty> difficultyList)
   {
     self = this;
 
@@ -74,7 +74,7 @@ public class GUIFrame extends JFrame
     private diffListener dListener;
     private JButton[] diffButtons;
 
-    public diffPanel(ArrayList<difficulty> difficultyList)
+    public diffPanel(ArrayList<Difficulty> difficultyList)
     {
       dListener = new diffListener();
       diffButtons = new JButton[difficultyList.size()];
@@ -95,7 +95,7 @@ public class GUIFrame extends JFrame
       public void actionPerformed(ActionEvent e) {
         JButton b = (JButton)e.getSource();
         int index = (int) b.getClientProperty("INDEX");
-        difficulty selected = difficultyList.get(index);
+        Difficulty selected = difficultyList.get(index);
         
         self.remove(panel);
         
