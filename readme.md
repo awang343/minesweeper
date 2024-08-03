@@ -22,16 +22,10 @@ To run Minesweeper locally, follow these steps:
     cd minesweeper
     ```
 
-3. **Compile the project**:
+3. **Run the project**:
 
     ```bash
     java Main.java
-    ```
-
-4. **Run the Executable**:
-
-    ```bash
-    ./main.py
     ```
 
 ## Usage
