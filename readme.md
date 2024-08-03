@@ -1,6 +1,6 @@
 # Minesweeper
 
-Welcome to the Minesweeper project! This repository contains a classic implementation of the popular Minesweeper game. Play, customize, and contribute to this timeless puzzle game!
+Welcome to Minesweeper! This repository contains a classic implementation of the popular Minesweeper game.
 
 ## Overview
 
