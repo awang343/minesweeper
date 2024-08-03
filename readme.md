@@ -1,5 +1,5 @@
 # Minesweeper
-## AUTHORS
+## Authors
 Alan Wang, Akshaj Ganta
-## USER INSTRUCTIONS
+## How to Play
 Compile Main.java and run. Have fun!
